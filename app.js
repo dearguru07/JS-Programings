@@ -6,25 +6,20 @@
 // }
 // console.log(data)
 
-
 // spead opratior-------------------
 
 // const arry1=[1,2,5,4,8,1,2,2]
 // const op=[...new Set(arry1)]
 // console.log(op)
 
-
-
 // let n=3.458475
 // let ans=n.toFixed(2)
 // console.log(ans)
-
 
 // const object={namee:"guru",2:"chanran",world:'hello'}
 // object.data="mahi"
 // delete object.world
 // console.log(object)
-
 
 // let array2=[1,2,5,'guru',4,'charan',6,'virat',7,'kohli']
 // let strings=[]
@@ -41,8 +36,6 @@
 // console.log(strings)
 // console.log(nums)
 
-
-
 // let array3=[4,5,8,2,9,7,6,1]
 // let sum=0;
 // for (let i=0;i<array3.length;i++){
@@ -50,14 +43,18 @@
 // }
 // console.log(sum);
 
-
-let string="Hello world"
-let sol=[]
-for(let i=0;i<string.length;i++){
-    if()
-
+let string = "Hello world";
+let vowels = ["a", "e", "i", "o", "u"];
+let sol = [];
+for (let i = 0; i < string.length; i++) {
+  for (let j = 0; j < vowels.length; j++) {
+    if (string[i] === vowels[j]) {
+      sol.push(string[i]);
+      break;
+    }
+  }
 }
-
+console.log(sol);
 
 
 // const arry=[1,5,7,5,2,6,8,2,3,5,1,6,8,6,7,1,4,7]
