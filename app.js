@@ -43,19 +43,18 @@
 // }
 // console.log(sum);
 
-let string = "Hello world";
-let vowels = ["a", "e", "i", "o", "u"];
-let sol = [];
-for (let i = 0; i < string.length; i++) {
-  for (let j = 0; j < vowels.length; j++) {
-    if (string[i] === vowels[j]) {
-      sol.push(string[i]);
-      break;
-    }
-  }
-}
-console.log(sol);
-
+// let string = "Hello world";
+// let vowels = ["a", "e", "i", "o", "u"];
+// let sol = [];
+// for (let i = 0; i < string.length; i++) {
+//   for (let j = 0; j < vowels.length; j++) {
+//     if (string[i] === vowels[j]) {
+//       sol.push(string[i]);
+//       break;
+//     }
+//   }
+// }
+// console.log(sol);
 
 // const arry=[1,5,7,5,2,6,8,2,3,5,1,6,8,6,7,1,4,7]
 // const res=[]
@@ -71,7 +70,6 @@ console.log(sol);
 // const solustion=removeDuplicates(arry)
 // console.log(solustion)
 
-
 // var a=20
 // function s(){
 //   var d=50
@@ -79,14 +77,20 @@ console.log(sol);
 // console.log(a)
 // console.log(s.d);
 
+// let x = {
+//   value: 1,valueOf: function () {
+//     returnthis.value++;
+//   },
+// };
+// if (x == 1 && x == 2 && x == 3) {
+//   console.log("Hello..");
+// }
 
-let x = {
-  value: 1,valueOf: function () {
-    returnthis.value++;
-  },
-};
-if (x == 1 && x == 2 && x == 3) {
-  console.log("Hello..");
+function a() {
+  c();
+  console.log(b);
+  function c() {
+    let b = 20;
+  }
 }
-
-
+a();
