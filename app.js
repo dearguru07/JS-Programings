@@ -70,3 +70,23 @@ console.log(sol);
 // }
 // const solustion=removeDuplicates(arry)
 // console.log(solustion)
+
+
+// var a=20
+// function s(){
+//   var d=50
+// }
+// console.log(a)
+// console.log(s.d);
+
+
+let x = {
+  value: 1,valueOf: function () {
+    returnthis.value++;
+  },
+};
+if (x == 1 && x == 2 && x == 3) {
+  console.log("Hello..");
+}
+
+
