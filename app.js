@@ -86,11 +86,24 @@
 //   console.log("Hello..");
 // }
 
-function a() {
-  c();
-  console.log(b);
-  function c() {
-    let b = 20;
+// function a() {
+//   c();
+//   console.log(b);
+//   function c() {
+//     let b = 20;
+//   }
+// }
+// a();
+
+// let a =20
+// var v=7;
+
+const radius = [1, 2, 4, 5];
+const calculateArea = function (radius) {
+  const output = [];
+  for (let i = 0; i < radius.length; i++) {
+    output.push(Math.PI * radius[i] * radius[i]);
   }
-}
-a();
+  return output;
+};
+console.log(calculateArea(radius));
