@@ -107,3 +107,22 @@ const calculateArea = function (radius) {
   return output;
 };
 console.log(calculateArea(radius));
+
+
+const calculateCircufernce=function(radius){
+    const output=[];
+    for(let i=0;i<radius.length;i++){
+        output.push(2*Math.PI*radius[i])
+    }
+    return output;
+}
+console.log(calculateCircufernce(radius));
+
+const CalculateDiameter=function (radius){
+    const output=[];
+    for(let i=0;i<radius.length;i++){
+        output.push(2*radius[i])
+    }
+    return output;
+}
+console.log(CalculateDiameter(radius));
