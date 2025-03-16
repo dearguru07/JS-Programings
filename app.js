@@ -101,7 +101,6 @@
 const radius = [1, 2, 4, 5];
 
 
-
 // const calculateCircufernce=function(radius){
 //     const output=[];
 //     for(let i=0;i<radius.length;i++){
@@ -122,6 +121,269 @@ const radius = [1, 2, 4, 5];
 
 
 const Area=function(radius){
+  return 2*Math.PI*radius*radius
+}
+
+const Circufernce=function(radius){
+  return 2*Math.PI*radius
+}
+
+const Daimater=function(radius){
+  return 2*radius
+}
+const calculateArea = function (radius,logic) {
+  const output = [];
+  for (let i = 0; i < radius.length; i++) {
+    output.push(logic(radius[i]));
+  }
+  return output;
+};
+console.log(calculateArea(radius,Area));
+console.log(calculateArea(radius,Circufernce));
+console.log(calculateArea(radius,Daimater));
+
+
+const Area=function(radius){
+    return 2*Math.PI*radius*radius
+  }
+  
+  const Circufernce=function(radius){
+    return 2*Math.PI*radius
+  }
+  
+  const Daimater=function(radius){
+    return 2*radius
+  }
+  const calculateArea = function (radius,logic) {
+    const output = [];
+    for (let i = 0; i < radius.length; i++) {
+      output.push(logic(radius[i]));
+    }
+    return output;
+  };
+  console.log(calculateArea(radius,Area));
+  console.log(calculateArea(radius,Circufernce));
+  console.log(calculateArea(radius,Daimater));const Area=function(radius){
+    return 2*Math.PI*radius*radius
+  }
+  
+  const Circufernce=function(radius){
+    return 2*Math.PI*radius
+  }
+  
+  const Daimater=function(radius){
+    return 2*radius
+  }
+  const calculateArea = function (radius,logic) {
+    const output = [];
+    for (let i = 0; i < radius.length; i++) {
+      output.push(logic(radius[i]));
+    }
+    return output;
+  };
+  console.log(calculateArea(radius,Area));
+  console.log(calculateArea(radius,Circufernce));
+  console.log(calculateArea(radius,Daimater));const Area=function(radius){
+  return 2*Math.PI*radius*radius
+}
+
+const Circufernce=function(radius){
+  return 2*Math.PI*radius
+}
+
+const Daimater=function(radius){
+  return 2*radius
+}
+const calculateArea = function (radius,logic) {
+  const output = [];
+  for (let i = 0; i < radius.length; i++) {
+    output.push(logic(radius[i]));
+  }
+  return output;
+};
+console.log(calculateArea(radius,Area));
+console.log(calculateArea(radius,Circufernce));
+console.log(calculateArea(radius,Daimater));const Area=function(radius){
+  return 2*Math.PI*radius*radius
+}
+
+const Circufernce=function(radius){
+  return 2*Math.PI*radius
+}
+
+const Daimater=function(radius){
+  return 2*radius
+}
+const calculateArea = function (radius,logic) {
+  const output = [];
+  for (let i = 0; i < radius.length; i++) {
+    output.push(logic(radius[i]));
+  }
+  return output;
+};
+console.log(calculateArea(radius,Area));
+console.log(calculateArea(radius,Circufernce));
+console.log(calculateArea(radius,Daimater));const Area=function(radius){
+    return 2*Math.PI*radius*radius
+  }
+  
+  const Circufernce=function(radius){
+    return 2*Math.PI*radius
+  }
+  
+  const Daimater=function(radius){
+    return 2*radius
+  }
+  const calculateArea = function (radius,logic) {
+    const output = [];
+    for (let i = 0; i < radius.length; i++) {
+      output.push(logic(radius[i]));
+    }
+    return output;
+  };
+  console.log(calculateArea(radius,Area));
+  console.log(calculateArea(radius,Circufernce));
+  console.log(calculateArea(radius,Daimater));const Area=function(radius){
+  return 2*Math.PI*radius*radius
+}
+
+const Circufernce=function(radius){
+  return 2*Math.PI*radius
+}
+
+const Daimater=function(radius){
+  return 2*radius
+}
+const calculateArea = function (radius,logic) {
+  const output = [];
+  for (let i = 0; i < radius.length; i++) {
+    output.push(logic(radius[i]));
+  }
+  return output;
+};
+console.log(calculateArea(radius,Area));
+console.log(calculateArea(radius,Circufernce));
+console.log(calculateArea(radius,Daimater));const Area=function(radius){
+  return 2*Math.PI*radius*radius
+}
+
+const Circufernce=function(radius){
+  return 2*Math.PI*radius
+}
+
+const Daimater=function(radius){
+  return 2*radius
+}
+const calculateArea = function (radius,logic) {
+  const output = [];
+  for (let i = 0; i < radius.length; i++) {
+    output.push(logic(radius[i]));
+  }
+  return output;
+};
+console.log(calculateArea(radius,Area));
+console.log(calculateArea(radius,Circufernce));
+console.log(calculateArea(radius,Daimater));const Area=function(radius){
+  return 2*Math.PI*radius*radius
+}
+
+const Circufernce=function(radius){
+  return 2*Math.PI*radius
+}
+
+const Daimater=function(radius){
+  return 2*radius
+}
+const calculateArea = function (radius,logic) {
+  const output = [];
+  for (let i = 0; i < radius.length; i++) {
+    output.push(logic(radius[i]));
+  }
+  return output;
+};
+console.log(calculateArea(radius,Area));
+console.log(calculateArea(radius,Circufernce));
+console.log(calculateArea(radius,Daimater));const Area=function(radius){
+  return 2*Math.PI*radius*radius
+}
+
+const Circufernce=function(radius){
+  return 2*Math.PI*radius
+}
+
+const Daimater=function(radius){
+  return 2*radius
+}
+const calculateArea = function (radius,logic) {
+  const output = [];
+  for (let i = 0; i < radius.length; i++) {
+    output.push(logic(radius[i]));
+  }
+  return output;
+};
+console.log(calculateArea(radius,Area));
+console.log(calculateArea(radius,Circufernce));
+console.log(calculateArea(radius,Daimater));const Area=function(radius){
+  return 2*Math.PI*radius*radius
+}
+
+const Circufernce=function(radius){
+  return 2*Math.PI*radius
+}
+
+const Daimater=function(radius){
+  return 2*radius
+}
+const calculateArea = function (radius,logic) {
+  const output = [];
+  for (let i = 0; i < radius.length; i++) {
+    output.push(logic(radius[i]));
+  }
+  return output;
+};
+console.log(calculateArea(radius,Area));
+console.log(calculateArea(radius,Circufernce));
+console.log(calculateArea(radius,Daimater));const Area=function(radius){
+  return 2*Math.PI*radius*radius
+}
+
+const Circufernce=function(radius){
+  return 2*Math.PI*radius
+}
+
+const Daimater=function(radius){
+  return 2*radius
+}
+const calculateArea = function (radius,logic) {
+  const output = [];
+  for (let i = 0; i < radius.length; i++) {
+    output.push(logic(radius[i]));
+  }
+  return output;
+};
+console.log(calculateArea(radius,Area));
+console.log(calculateArea(radius,Circufernce));
+console.log(calculateArea(radius,Daimater));const Area=function(radius){
+  return 2*Math.PI*radius*radius
+}
+
+const Circufernce=function(radius){
+  return 2*Math.PI*radius
+}
+
+const Daimater=function(radius){
+  return 2*radius
+}
+const calculateArea = function (radius,logic) {
+  const output = [];
+  for (let i = 0; i < radius.length; i++) {
+    output.push(logic(radius[i]));
+  }
+  return output;
+};
+console.log(calculateArea(radius,Area));
+console.log(calculateArea(radius,Circufernce));
+console.log(calculateArea(radius,Daimater));const Area=function(radius){
   return 2*Math.PI*radius*radius
 }
 
