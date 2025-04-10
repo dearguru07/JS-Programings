@@ -148,3 +148,22 @@ const nums=[{name:'guru',
     clg:'SIETK'
 }]
 console.log(nums.age?.salary);
+
+
+const nums=[{name:'guru',
+    age:27,
+    clg:'SIETK'
+}]
+console.log(nums.age?.salary);const nums=[{name:'guru',
+    age:27,
+    clg:'SIETK'
+}]
+console.log(nums.age?.salary);const nums=[{name:'guru',
+    age:27,
+    clg:'SIETK'
+}]
+console.log(nums.age?.salary);const nums=[{name:'guru',
+    age:27,
+    clg:'SIETK'
+}]
+console.log(nums.age?.salary);
