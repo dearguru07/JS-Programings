@@ -171,4 +171,6 @@ function close() {
   }
   return inner;
 }
-close()();
+// close()();
+var res=close();
+res()
