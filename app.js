@@ -98,8 +98,7 @@
 // let a =20
 // var v=7;
 
-const radius = [1, 2, 4, 5];
-
+// const radius = [1, 2, 4, 5];
 
 // const calculateCircufernce=function(radius){
 //     const output=[];
@@ -118,7 +117,6 @@ const radius = [1, 2, 4, 5];
 //     return output;
 // }
 // console.log(CalculateDiameter(radius));
-
 
 // const Area=function(radius){
 //   return 2*Math.PI*radius*radius
@@ -142,9 +140,35 @@ const radius = [1, 2, 4, 5];
 // console.log(calculateArea(radius,Circufernce));
 // console.log(calculateArea(radius,Daimater));
 
+// const nums=[{name:'guru',
+//     age:27,
+//     clg:'SIETK'
+// }]
+// console.log(nums.age?.salary);
 
-const nums=[{name:'guru',
-    age:27,
-    clg:'SIETK'
-}]
-console.log(nums.age?.salary);
+// var n=10;
+// function x(num){
+//     var ans=num*num
+//     return ans
+// }
+// var squ1=x(n)
+// var squ=x(8)
+// console.log(squ1)
+// console.log(squ)
+
+// let a =10
+// const b=20
+// function x(){
+//     let a=4
+//     const b=25;
+// }
+// var s=22;
+
+function close() {
+  var s = 20;
+  function inner() {
+    console.log(s);
+  }
+  return inner;
+}
+close()();
