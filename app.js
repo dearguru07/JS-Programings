@@ -164,13 +164,18 @@
 // }
 // var s=22;
 
-function close() {
-  var s = 20;
-  function inner() {
-    console.log(s);
+function closed() {
+  var c=52;
+  function close(b) {
+    let s = 20;
+    function inner() {
+      console.log(s, b,c);
+    }
+    return inner;
   }
-  return inner;
+ return close;
 }
+let s=4;
 // close()();
-var res=close();
-res()
+var res = closed()("hello world..");
+res();
