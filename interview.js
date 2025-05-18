@@ -81,6 +81,8 @@
 // console.log(nums)
 // console.log(res)
 
+
+
 // for Of for Arrys--------
 
 // let names = ["Guru", "Charan", "Mahesh", "Ram", "Venky", "Mark"];
@@ -88,7 +90,11 @@
 //   console.log(i);
 // }
 
+
+
+
 // for In for Objects--------
+
 
 let namesSrtL = {
   G: "Guru",
@@ -98,7 +104,20 @@ let namesSrtL = {
   V: "Venky",
   M: "Mark",
 };
+
+
 for (let i in namesSrtL) {
-//   console.log(namesSrtL[i]);
+  // console.log(namesSrtL[i]);
   console.log(`${i} and ${namesSrtL[i]}`);
-}
+};
+
+
+for (let i in namesSrtL) {
+  // console.log(namesSrtL[i]);
+  console.log(`${i} and ${namesSrtL[i]}`);
+};
+
+for (let i in namesSrtL) {
+  // console.log(namesSrtL[i]);
+  console.log(`${i} and ${namesSrtL[i]}`);
+};
