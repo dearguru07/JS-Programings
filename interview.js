@@ -121,3 +121,19 @@ for (let i in namesSrtL) {
   // console.log(namesSrtL[i]);
   console.log(`${i} and ${namesSrtL[i]}`);
 };
+
+
+
+const phoneRegex = /^[6-9]\d{9}$/;
+const phone = "9346860132";
+if (phoneRegex.test(phone)) {
+  console.log("Valid phone number");
+} else {
+  console.log("Invalid phone number");
+}
+
+
+const text = "Check out this reel: https://www.instagram.com/reel/xyz123/";
+const urlRegex = /https:\/\/www\.instagram\.com\/reel\/[A-Za-z0-9-_]+\/?/;
+const result = text.match(urlRegex);
+console.log(result[0]);  // "https://www.instagram.com/reel/xyz123/"
