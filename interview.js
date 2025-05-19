@@ -137,3 +137,17 @@ const text = "Check out this reel: https://www.instagram.com/reel/xyz123/";
 const urlRegex = /https:\/\/www\.instagram\.com\/reel\/[A-Za-z0-9-_]+\/?/;
 const result = text.match(urlRegex);
 console.log(result[0]);  // "https://www.instagram.com/reel/xyz123/"
+
+
+
+const emailRegex = /^[\w.-]+@[a-zA-Z\d.-]+\.[a-zA-Z]{2,}$/;
+console.log(emailRegex.test("guru@example.com")); // true
+console.log(emailRegex.test("guru.com"));         // false
+
+
+const tagRegex = /#\w+/g;
+const caption = "Loving #JavaScript and #Regex!";
+let match;
+while ((match = tagRegex.exec(caption)) !== null) {
+  console.log(match[0]); // "#JavaScript", then "#Regex"
+}
