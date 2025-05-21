@@ -151,3 +151,35 @@ let match;
 while ((match = tagRegex.exec(caption)) !== null) {
   console.log(match[0]); // "#JavaScript", then "#Regex"
 }
+
+const tagRegex = /#\w+/g;
+const caption = "Loving #JavaScript and #Regex!";
+let match;
+while ((match = tagRegex.exec(caption)) !== null) {
+  console.log(match[0]); // "#JavaScript", then "#Regex"
+}
+const tagRegex = /#\w+/g;
+const caption = "Loving #JavaScript and #Regex!";
+let match;
+while ((match = tagRegex.exec(caption)) !== null) {
+  console.log(match[0]); // "#JavaScript", then "#Regex"
+}
+const tagRegex = /#\w+/g;
+const caption = "Loving #JavaScript and #Regex!";
+let match;
+while ((match = tagRegex.exec(caption)) !== null) {
+  console.log(match[0]); // "#JavaScript", then "#Regex"
+}
+const tagRegex = /#\w+/g;
+const caption = "Loving #JavaScript and #Regex!";
+let match;
+while ((match = tagRegex.exec(caption)) !== null) {
+  console.log(match[0]); // "#JavaScript", then "#Regex"
+}
+const tagRegex = /#\w+/g;
+const caption = "Loving #JavaScript and #Regex!";
+let match;
+while ((match = tagRegex.exec(caption)) !== null) {
+  console.log(match[0]); // "#JavaScript", then "#Regex"
+}
+v
